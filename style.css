@@ -1,0 +1,95 @@
+@font-face {
+    font-family: gara;
+    src: url("fonts/GARA.TTF");
+}
+
+@font-face {
+    font-family: garait;
+    src: url("fonts/GARAIT.TTF");
+}
+
+@font-face {
+    font-family: kathouse;
+    src: url("fonts/kathouse.otf");
+}
+
+body {
+    font-family: kathouse;
+}
+
+#name {
+    text-align: center;
+    font-size: 60px;
+    padding: 70px;
+}
+
+#exit {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    margin-top: 5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    height: auto;
+    transition: 0.3s;
+}
+
+.images:hover {
+    width: 95vw;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#currentimg {
+    width: auto;
+    height: 80vh;
+}
+
+#exit {
+    font-size: 24px;
+}
+
+#right {
+    position: fixed;
+    display: none;
+    right: 5vw;
+    bottom: 20px;
+}
+
+#left {
+    left: 5vw;
+    bottom: 20px;
+    display: none;
+    position: fixed;
+}
+
+p {
+    text-align: center;
+    font-family: gara;
+    font-size: 12px;
+    max-width: 50vw;
+    transform: translate(50%);
+}
+
+p > a {
+    font-size: 12px;
+    text-decoration: underline;
+    color: gray;
+    opacity: 0.3;
+}
+
+p > a:hover {
+    opacity: 0.5;
+}
