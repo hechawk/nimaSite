@@ -34,7 +34,7 @@ function exitfs() {
     header.style.display = "flex";
     exitbtn.style.display = "none";
     content.innerHTML = `
-    <img class="images" src="images/1.png" alt="1">
+    <img class="images" src="images/1.PNG" alt="1">
         <img class="images" src="images/2.gif" alt="2">
         <img class="images" src="images/3.gif" alt="3">
         <img class="images" src="images/4.gif" alt="4">
